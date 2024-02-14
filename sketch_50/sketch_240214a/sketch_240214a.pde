@@ -9,6 +9,7 @@ Linea l3;
 Linea l4;
 
 Cuadrado c1;
+Matriz m;
 
 void setup(){
   
@@ -27,4 +28,6 @@ void setup(){
  c1=new Cuadrado(p1,p2,p3,p4);
  c1.Render();
  
+ m=new Matriz(2,2);
+
 }
