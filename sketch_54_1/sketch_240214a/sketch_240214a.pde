@@ -21,7 +21,7 @@ void setup(){
    
    
    
-   m=new Matriz(-40,-40); // lo que se mueva el punto 
+   m=new Matriz(-40,-40); // lo que se mueva el cuadrado 
    
    m.setPosActual(p1.GetX(),p1.GetY()); // que m sea el punto 
    p1.SetX(m.Trasladar()[0]); //trasladar en x
