@@ -22,7 +22,7 @@ void setup(){
    p3.SetPos(p1.GetX()+20, p1.GetY()+20);
    p4.SetPos(p1.GetX(), p1.GetY()+20);
    
-   m=new Matriz(100,200,6,2); // lo que se mueva el cuadrado 
+   m=new Matriz(300,200,6,2,PI); // lo que se mueva el cuadrado 
    
    for(int i=0;i<=4;i++){
      Punto p=listaPuntos.get(i); // definimos punto p con cada punto del array
@@ -31,6 +31,8 @@ void setup(){
      p.SetX(m.Escalar()[0]); //escalar en x
      p.SetY(m.Escalar()[1]); //escalar en y
    }
+   
+
    
    for(int i=0;i<=4;i++){
      Punto p=listaPuntos.get(i); // definimos punto p con cada punto del array
